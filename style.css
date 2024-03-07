@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    /* z-index: 999; */
+}
+
+.p-nav {
+    background-color: #f7f6f4;
+}
+
+.nav a {
+    font-size: 12.9px;
+    font-weight: 500;
+}
+
+.span-1 span {
+    font-size: 12.9px;
+    font-weight: 600;
+}
+
+.span-2 span {
+    font-size: 12.9px;
+    font-weight: 600;
+}
+
+.back-g1 {
+    background-image: url(images/val-banner_bk99je.png);
+    background-size: cover;
+    background-position: 0;
+    width: 100%;
+    height: 500px;
+}
+
+.col-8 a {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #4B6382;
+}
+
+.form label {
+    color: #384A62;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.form h2 {
+    color: #EE120D;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+}
+
+.in-put input {
+    padding: 28px;
+    width: 650px;
+    background-color: #ffffff;
+    /* border-radius: 5px; */
+    border: none;
+}
+
+.in-put img {
+    transform: translate(590px, -50px);
+}
+
+#card img {
+    width: 440px;
+    height: 320px;
+    transform: translate(230px, 110px);
+}
+
+.product h3 {
+    color: #384a62;
+    font-family: "DM Serif Display", serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.card-title h5 {
+    color: #384A62;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 700;
+    
+}
+
+.product a {
+    color: #D77F81;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.card-im {
+    overflow: hidden;
+    transition-duration: 5s ease;
+    transition-property: all;
+    height: 192px;
+}
+
+.card-im img:hover {
+    transform: scale(110%);
+    transition: 0.7s ease;
+}
+
+.card-p {
+    color: #708095;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.card_moni {
+    /* border: 2px solid red; */
+    font-size: 18px;
+    font-weight: 700;
+    color: #384a62;
+    font-family: "Roboto", sans-serif;
+}
+
+.per_1 {
+    /* border: 2px solid salmon; */
+    color: #708095;
+    font-size: 14.4px;
+    font-weight: 700;
+}
+
+.card-im2 {
+    overflow: hidden;
+    transition-duration: 5s ease;
+    transition-property: all;
+}
+
+.card-im2 img:hover {
+    transform: scale(110%);
+    transition: 0.7s ease;
+}
+
+.card-im2 img {
+    height: 192px;
+}
+
+#btn {
+    background: #d77f81;
+}
+
+.nija h2 {
+    color: #384A62;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+}
+
+.nija p {
+    color: #506683;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 600px;
+}
+
+.cust p {
+    color: #384A62;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    width: 400px;
+}
+
+.bg {
+    background-color: #edf6fd;
+    width: 100%;
+}
+
+.amina {
+    position: relative;
+    left: 50px;
+    bottom: 22px;
+    color: #384A62;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.amina a {
+    color: #1DA1F2;
+}
+
+.twitter img {
+    width: 28px;
+    padding: 5px;
+}
+
+.amina_p p {
+    color: #384A62;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.amina_p a {
+    color: #1DA1F2;
+    /* border: 2px solid red; */
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+.count h2 {
+    color: #384A62;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+}
+
+.days h6 {
+    color: #212529;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.days p {
+    color: #677F9E;
+    font-size: 15.5px;
+    font-weight: 400;
+    font-family: sans-serif;
+    width: 220px;
+}
+
+.amazing h6 {
+    color: #384A62;
+    font-family: "DM Serif Display", serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.bg_light {
+    background-color: #f7f6f4;
+}
+
+.forbes a {
+    color: #384A62;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer {
+    background-color: #384a62;
+}
+
+.footer h4 {
+    color: #ece8d9;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer h6 {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.payment img {
+    width: 200px;
+}
+
+.b-footer {
+    background-color: #cbcac8;
+}
+
+.b-footer p {
+    color: #384A62;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.btn img {
+    width: 15px;
+    animation: icon 0.5s linear forwards;
+    transition: 1s;
+}
+
+.btn-image:hover img {
+    animation: tayo 1s linear forwards;
+    transition: 1s;
+}
+
+@keyframes tayo {
+    0% {
+        transform: translate(0px) !important;
+    }
+
+    100%{
+        transform: translate(10px);
+    }
+}
+
+
+
+
+
